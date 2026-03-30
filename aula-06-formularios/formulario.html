@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>
+        Cadastro de Aluno - DSM
+    </h1>
+    <form action="#" method="POST">
+        <fieldset>
+            <legend>Dados Pessoais</legend> <br>
+            <label for="text">Nome:</label>
+            <input type="text" required placeholder="Insira seu nome"> <br>
+             <label for="email">Email:</label>
+            <input type="email" required placeholder="email@gmail.com"><br>
+           <label for="date">Data de nascimento:</label> <br>
+            <input type="date" required >
+        </fieldset>
+        <fieldset>
+            <legend>Dados Acadêmicos</legend> <br>
+            <select name="Curso:" id="Curso" >
+                <option value="DSM">DSM</option>
+                <option value="ADS">ADS</option>
+                <option value="Outro">Outro</option>
+            </select> <br>
+            <label for="Período:">Período:</label>
+            <input type="radio" name="periodo" id="manha" value="m" required>Manhã
+            <input type="radio" name="periodo" id="noite" value="t" required>Noite
+        </fieldset>
+
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+
+
+
+
+
+
+
+
+
+</form>
+</body>
+</html>
