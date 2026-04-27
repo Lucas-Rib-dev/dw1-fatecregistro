@@ -1,0 +1,32 @@
+.card {
+    background-color: #8cc9e4;
+    color: #30302e;
+    padding: 20px;
+}
+
+.container-flex {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    background-color: #30302e;
+    gap: 100px;
+    /* align-itens:center */
+    align-items: center;
+    justify-content: center;
+}
+
+.cards {
+    padding: 20px;
+    background-color: aquamarine;
+    color: red;
+}
+
+.container-flexbox {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+    background-color: #30302e;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
